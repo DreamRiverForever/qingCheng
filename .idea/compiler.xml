@@ -6,15 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="qingcheng_common_service" />
         <module name="qingcheng_common" />
+        <module name="qingcheng_service_goods" />
         <module name="qingcheng_pojo" />
         <module name="qingcheng_common_web" />
-        <module name="qingcheng_commin_service" />
+        <module name="qingcheng_web_manager" />
         <module name="qingcheng_interface" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="10">
-      <module name="qingcheng_common_web" target="10" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="10" />
   </component>
 </project>
